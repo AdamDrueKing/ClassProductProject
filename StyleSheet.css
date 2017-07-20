@@ -1,6 +1,6 @@
 ﻿/*General Styling*/
 body {
-    background-color:whitesmoke;
+    background-color:white;
 }
 
 /*Header Styling*/
@@ -15,18 +15,23 @@ div.page-header {
 }
 
 /*NavBar Styling*/
-nav#navvy.navbar.navbar-static-top {
+nav#navibar.navbar.navbar-static-top {
     margin-bottom:0px;
     background-color:tan;
     color:#FFF6F0;
 }
 
-#navvy a {
+#navibar a {
     color:#FFF6F0;
 }
 
-#navvy a:hover {
-    background:none;
+#navibar a:hover {
+    background:padding-box
+}
+
+#navibar {
+    font-family: 'Amatic SC', cursive;
+    font-size:30px;
 }
 
 
