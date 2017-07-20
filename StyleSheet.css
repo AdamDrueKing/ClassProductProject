@@ -1,2 +1,54 @@
-﻿body {
+﻿/*General Styling*/
+body {
+    background-color:whitesmoke;
+}
+
+/*Header Styling*/
+#logoImg {
+    width: 300px;
+}
+div.page-header {
+    margin-top:0px;
+    background-color:white;
+    padding-top:3px;
+    margin-bottom:0px;
+}
+
+/*NavBar Styling*/
+nav#navvy.navbar.navbar-static-top {
+    margin-bottom:0px;
+    background-color:tan;
+    color:#FFF6F0;
+}
+
+#navvy a {
+    color:#FFF6F0;
+}
+
+#navvy a:hover {
+    background:none;
+}
+
+
+/*Trailer Styling*/
+.mainSec {
+    background-image:url('Images/junkyard.jpg');
+    background-size:cover;
+}
+
+h1.container#trailer {
+    text-align:right;
+}
+
+/*Preview Styling*/
+.previewThem {
+    margin:auto;
+
+/*Button*/
+button.navbar-toggle {
+    border:1px solid #FFF6F0;
+}
+span.icon-bar {
+    border:1px solid #FFF6F0;
+
 }
